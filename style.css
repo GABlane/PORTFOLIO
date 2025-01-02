@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+
+#logo{
+    width: 3em;
+}
+h3{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    border: 20px;
+}
