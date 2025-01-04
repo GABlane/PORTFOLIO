@@ -7,18 +7,66 @@ body{
 .nav-brand{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
     justify-content: left;
     align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+button{
+    background-color: rgb(250, 248, 248);
+    color: rgb(65, 65, 65);
+    font-size: 0.80em;
+    font-weight: 700;
+    padding: 30;
+    border: 0.1;
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 2em;
+    margin-right: 2em;
+
 }
 
 
 #logo{
     width: 3em;
 }
+
+
+
 h3{
     font-size: 1em;
     font-weight: 700;
     margin: 0;
     padding: 0;
-    border: 20px;
+    border: 20p;
+    font-family: "Fjalla One",serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.cotainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 3em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 3em;
 }
