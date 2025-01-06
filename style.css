@@ -65,6 +65,7 @@ main{
 
 .radio-tile-group{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 2%;
@@ -110,7 +111,7 @@ input:checked+.radio-title{
     box-shadow: 0 0 0 2px rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 0.5rem;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 input:hover+.radio-title{
     box-shadow: 0 0 0 2px rgb(255, 255, 255);
